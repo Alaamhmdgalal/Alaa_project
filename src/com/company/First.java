@@ -4,14 +4,19 @@ class Main {
 
     public static void main(String[] args) {
 
-        Person p1 = new Person();
-        Person p2 = new Person();
-        p1.name = "Ali";
-        p2.name = "Ahmed";
-        p1.job = "Engineer";
-        p2.age = 25;
-        p1.jobInfo();
-        p2.run();
+    Circle circle1 = new Circle("Blue", "myCircle", true, 3);
+    circle1.getArea();
+
+
+        //Person p1 = new Person();
+        //Person p2 = new Person();
+        //p1.name = "Ali";
+        //p2.name = "Ahmed";
+        //p1.job = "Engineer";
+        //p2.age = 25;
+        //p1.jobInfo();
+        //p2.run();
+
 
         //int result = multiplyTwoNumber(2,3);
         //if (result >= 0)
