@@ -13,6 +13,7 @@ public class Shape {
         this.isFilled=isFilled;
     }
 
-    public void getArea(){
+    public double getArea(){
+        return 0;
     }
 }

@@ -8,7 +8,7 @@ public class Circle extends Shape{
         this.radius=radius;
     }
     @Override
-    public void getArea(){
-    System.out.println(3.14*radius*radius);
+    public double getArea(){
+    return (3.14*radius*radius);
     }
 }

@@ -2,10 +2,10 @@ package com.company;
 
 class Main {
 
-    public static void main(String[] args) {
+    /*public static void main(String[] args){
 
     Circle circle1 = new Circle("Blue", "myCircle", true, 3);
-    circle1.getArea();
+    System.out.println(circle1.getArea());
 
 
         //Person p1 = new Person();
@@ -29,5 +29,5 @@ class Main {
         //    return number1*number2;
         //}
 
-    }
+    }*/
 }
