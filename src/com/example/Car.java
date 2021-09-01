@@ -7,9 +7,6 @@ public abstract class Car {
     private String maxPower;
     private int maxSpeed;
 
-    /*public Car(){
-
-    }*/
     public Car(String model){
         this.model=model;
     }

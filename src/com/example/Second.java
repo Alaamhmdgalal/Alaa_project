@@ -20,7 +20,7 @@ public class Second {
 
         if(choose == 1) {
             System.out.println(X3.getFuelType(X3.getModel()));
-            System.out.println("Do you want to print all data?");
+            System.out.println("Do you want to print all data? (Type yes if you want)");
             String yesOrNo = scan.next();
             if(yesOrNo.equals("yes")) {
                 X3.printData();
@@ -29,7 +29,7 @@ public class Second {
 
         }else if (choose == 2) {
             System.out.println(Sedan.getFuelType(Sedan.getModel()));
-            System.out.println("Do you want to print all data?");
+            System.out.println("Do you want to print all data? (Type yes if you want)");
             String yesOrNo = scan.next();
             if(yesOrNo.equals("yes")) {
                 Sedan.printData();
@@ -38,7 +38,7 @@ public class Second {
 
         }else if (choose == 3) {
             System.out.println(GLA.getFuelType(GLA.getModel()));
-            System.out.println("Do you want to print all data?");
+            System.out.println("Do you want to print all data? (Type yes if you want)");
             String yesOrNo = scan.next();
             if(yesOrNo.equals("yes")) {
                 GLA.printData();
@@ -46,7 +46,7 @@ public class Second {
                 System.out.println("Thank you!");
         }else {
             System.out.println(SL.getFuelType(SL.getModel()));
-            System.out.println("Do you want to print all data?");
+            System.out.println("Do you want to print all data? (Type yes if you want)");
             String yesOrNo = scan.next();
             if(yesOrNo.equals("yes")) {
                 SL.printData();
