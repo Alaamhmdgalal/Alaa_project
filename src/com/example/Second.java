@@ -4,7 +4,7 @@ import java.util.Scanner;
 
 public class Second {
 
-    public static void main(String[] args){
+    /*public static void main(String[] args){
         Scanner scan = new Scanner(System.in);
 
         Bmw X3 = new Bmw("X3 M", "Hatchback", "Petrol", "473.38 hp @ 6250 rpm", 250);
@@ -54,6 +54,6 @@ public class Second {
                 System.out.println("Thank you!");
 
         }
-    }
+    }*/
 
 }
