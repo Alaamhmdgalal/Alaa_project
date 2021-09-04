@@ -1,19 +1,6 @@
-package com.carPackage;
+package task4.carPackage;
 
 public class Bmw extends Car{
-
-
-    /*public Bmw(String model, String fuel){
-        super(model,fuel);
-    }
-
-    public Bmw(String model, String design, String fuel){
-        super(model, design, fuel);
-    }
-
-    public Bmw(String model, String design, String fuel, String maxPower) {
-        super(model, design, fuel, maxPower);
-    }*/
 
     public Bmw(String model, String design, String fuel, String maxPower, int maxSpeed) {
         super(model, design, fuel, maxPower, maxSpeed);

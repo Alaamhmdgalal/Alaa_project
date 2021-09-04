@@ -1,4 +1,4 @@
-package com.carPackage;
+package task4.carPackage;
 
 public abstract class Car {
     private String model;
@@ -8,24 +8,6 @@ public abstract class Car {
     private int maxSpeed;
     private static int counter;
 
-
-    /*public Car(String model, String fuel){
-        this.model=model;
-        this.fuel=fuel;
-    }
-
-    public Car(String model, String design, String fuel){
-        this.model=model;
-        this.design=design;
-        this.fuel=fuel;
-    }
-
-    public Car(String model, String design, String fuel, String maxPower){
-        this.model=model;
-        this.design=design;
-        this.fuel=fuel;
-        this.maxPower=maxPower;
-    }*/
 
     public Car(String model, String design, String fuel, String maxPower, int maxSpeed){
         this.model=model;

@@ -1,18 +1,6 @@
-package com.carPackage;
+package task4.carPackage;
 
 public class Mercedes extends Car{
-
-    /*public Mercedes(String model, String fuel){
-        super(model,fuel);
-    }
-
-    public Mercedes(String model, String design, String fuel){
-        super(model, design, fuel);
-    }
-
-    public Mercedes(String model, String design, String fuel, String maxPower) {
-        super(model, design, fuel, maxPower);
-    }*/
 
     public Mercedes(String model, String design, String fuel, String maxPower, int maxSpeed) {
         super(model, design, fuel, maxPower, maxSpeed);
