@@ -1,21 +1,21 @@
 package task1;
 
-public class Bmw extends Car{
+public class Bmw_task1 extends Car_task1 {
 
 
-    public Bmw(String model, String fuel){
+    public Bmw_task1(String model, String fuel){
         super(model,fuel);
     }
 
-    public Bmw(String model, String design, String fuel){
+    public Bmw_task1(String model, String design, String fuel){
         super(model, design, fuel);
     }
 
-    public Bmw(String model, String design, String fuel, String maxPower) {
+    public Bmw_task1(String model, String design, String fuel, String maxPower) {
         super(model, design, fuel, maxPower);
     }
 
-    public Bmw(String model, String design, String fuel, String maxPower, int maxSpeed) {
+    public Bmw_task1(String model, String design, String fuel, String maxPower, int maxSpeed) {
         super(model, design, fuel, maxPower, maxSpeed);
     }
 

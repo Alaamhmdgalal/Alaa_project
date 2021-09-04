@@ -1,6 +1,6 @@
 package task1;
 
-public class Car {
+public class Car_task1 {
     private String model;
     private String design;
     private String fuel;
@@ -8,25 +8,25 @@ public class Car {
     private int maxSpeed;
 
 
-    public Car(String model, String fuel){
+    public Car_task1(String model, String fuel){
         this.model=model;
         this.fuel=fuel;
     }
 
-    public Car(String model, String design, String fuel){
+    public Car_task1(String model, String design, String fuel){
         this.model=model;
         this.design=design;
         this.fuel=fuel;
     }
 
-    public Car(String model, String design, String fuel, String maxPower){
+    public Car_task1(String model, String design, String fuel, String maxPower){
         this.model=model;
         this.design=design;
         this.fuel=fuel;
         this.maxPower=maxPower;
     }
 
-    public Car(String model, String design, String fuel, String maxPower, int maxSpeed){
+    public Car_task1(String model, String design, String fuel, String maxPower, int maxSpeed){
         this.model=model;
         this.design=design;
         this.fuel=fuel;

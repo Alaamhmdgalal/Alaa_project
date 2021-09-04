@@ -1,19 +1,19 @@
 package task1;
 
-public class Mercedes extends Car{
-    public Mercedes(String model, String fuel){
+public class Mercedes_task1 extends Car_task1 {
+    public Mercedes_task1(String model, String fuel){
         super(model,fuel);
     }
 
-    public Mercedes(String model, String design, String fuel){
+    public Mercedes_task1(String model, String design, String fuel){
         super(model, design, fuel);
     }
 
-    public Mercedes(String model, String design, String fuel, String maxPower) {
+    public Mercedes_task1(String model, String design, String fuel, String maxPower) {
         super(model, design, fuel, maxPower);
     }
 
-    public Mercedes(String model, String design, String fuel, String maxPower, int maxSpeed) {
+    public Mercedes_task1(String model, String design, String fuel, String maxPower, int maxSpeed) {
         super(model, design, fuel, maxPower, maxSpeed);
     }
 
