@@ -1,4 +1,4 @@
-package com.shapePackage;
+package task4.shapePackage;
 
 public class Third {
     public static void main(String ars[]){

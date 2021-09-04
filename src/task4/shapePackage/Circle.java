@@ -1,4 +1,4 @@
-package com.shapePackage;
+package task4.shapePackage;
 
 public class Circle implements Shape{
     private double radius;

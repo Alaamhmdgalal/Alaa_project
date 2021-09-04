@@ -1,4 +1,4 @@
-package com.shapePackage;
+package task4.shapePackage;
 
 public interface Shape {
     public String color = null;

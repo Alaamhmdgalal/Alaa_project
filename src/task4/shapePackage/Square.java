@@ -1,4 +1,4 @@
-package com.shapePackage;
+package task4.shapePackage;
 
 public class Square implements Shape{
     private double side;

@@ -1,4 +1,4 @@
-package com.shapePackage;
+package task4.shapePackage;
 
 public class Rectangle implements Shape{
     private double length;
