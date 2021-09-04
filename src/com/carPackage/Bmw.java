@@ -1,4 +1,4 @@
-package com.example;
+package com.carPackage;
 
 public class Bmw extends Car{
 

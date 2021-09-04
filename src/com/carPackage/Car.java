@@ -1,4 +1,4 @@
-package com.example;
+package com.carPackage;
 
 public abstract class Car {
     private String model;

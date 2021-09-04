@@ -1,4 +1,4 @@
-package com.company;
+package com.shapePackage;
 
 public class Circle extends Shape{
     private double radius;

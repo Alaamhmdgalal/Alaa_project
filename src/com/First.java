@@ -1,10 +1,29 @@
-package com.company;
+package com;
+import java.util.Scanner;
 
 class Main {
 
     public static void main(String[] args){
 
-    Circle c1 = new Circle();
+    Scanner scan = new Scanner(System.in);
+
+    double[] arrayOfNumbers = new double[10];
+        for(int i = 0 ; i < arrayOfNumbers.length ; i++){
+         arrayOfNumbers[i]= scan.nextDouble();
+        }
+
+        double sum = 0.0;
+
+        for(int i = 0 ; i < arrayOfNumbers.length ; i++){
+            sum+=arrayOfNumbers[i];
+        }
+        double average = sum/arrayOfNumbers.length;
+        System.out.println(average);
+
+
+
+
+        /*Circle c1 = new Circle();
     c1.setRadius(2);
     System.out.println("Circle area: " + c1.getArea());
 
@@ -16,6 +35,8 @@ class Main {
     r1.setWidth(2);
     r1.setLength(3);
     System.out.println("Rectangle perimeter: " + r1.getPerimeter());
+
+     */
 
 
         //Person p1 = new Person();

@@ -1,4 +1,4 @@
-package com.company;
+package com.shapePackage;
 
 public class Rectangle extends Shape{
     private double length;

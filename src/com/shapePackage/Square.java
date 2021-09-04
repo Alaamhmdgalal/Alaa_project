@@ -1,4 +1,4 @@
-package com.company;
+package com.shapePackage;
 
 public class Square extends Shape{
     private double side;

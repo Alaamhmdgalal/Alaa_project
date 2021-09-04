@@ -1,4 +1,4 @@
-package com.company;
+package com.shapePackage;
 
 public abstract class Shape {
     private String color;

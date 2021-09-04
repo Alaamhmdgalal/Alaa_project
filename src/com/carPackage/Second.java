@@ -1,6 +1,4 @@
-package com.example;
-
-import java.util.Scanner;
+package com.carPackage;
 
 public class Second {
 
