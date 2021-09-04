@@ -18,11 +18,11 @@ public class RandomNumberArray {
         }
 
         for (int i = 0 ; i < arrayOfNumbers.length -1; i++) {
-            for (int j = i+1 ; j < arrayOfNumbers.length ; j++) {
-                if (arrayOfNumbers[i] > arrayOfNumbers[j]) {
+            for (int k = i+1 ; k < arrayOfNumbers.length ; k++) {
+                if (arrayOfNumbers[i] > arrayOfNumbers[k]) {
                     int temp = arrayOfNumbers[i];
-                    arrayOfNumbers[i] = arrayOfNumbers[j];
-                    arrayOfNumbers[j] = temp;
+                    arrayOfNumbers[i] = arrayOfNumbers[k];
+                    arrayOfNumbers[k] = temp;
                 }
             }
         }
