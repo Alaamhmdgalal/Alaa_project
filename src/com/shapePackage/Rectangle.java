@@ -1,6 +1,6 @@
 package com.shapePackage;
 
-public class Rectangle extends Shape{
+public class Rectangle implements Shape{
     private double length;
     private double width;
 
@@ -10,9 +10,15 @@ public class Rectangle extends Shape{
     }
 
     @Override
+    public String getShapeName(){
+        return "Rectangle";
+    }
+
+
+    /*@Override
     public double getPerimeter() {
         return 2 * (length + width);
-    }
+    }*/
 
     public double getLength() {
         return length;

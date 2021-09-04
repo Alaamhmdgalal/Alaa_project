@@ -1,10 +1,10 @@
 package com.shapePackage;
 
-public abstract class Shape {
-    private String color;
-    private String name;
-    private boolean isFilled;
+public interface Shape {
+    public String color = null;
+    public String name = null;
+    public boolean isFilled = false;
 
     public abstract double getArea();
-    public abstract double getPerimeter();
+    public abstract String getShapeName();
 }

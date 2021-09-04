@@ -1,6 +1,6 @@
 package com.shapePackage;
 
-public class Square extends Shape{
+public class Square implements Shape{
     private double side;
 
 
@@ -10,10 +10,15 @@ public class Square extends Shape{
     }
 
     @Override
+    public String getShapeName(){
+        return "Square";
+    }
+
+    /*@Override
     public double getPerimeter() {
         return 4*side;
     }
-
+*/
     public double getSide() {
         return side;
     }
