@@ -6,11 +6,10 @@ public abstract class Car {
     private String fuel;
     private String maxPower;
     private int maxSpeed;
+    private static int counter;
 
-    public Car(){
-    }
 
-    public Car(String model, String fuel){
+    /*public Car(String model, String fuel){
         this.model=model;
         this.fuel=fuel;
     }
@@ -26,7 +25,7 @@ public abstract class Car {
         this.design=design;
         this.fuel=fuel;
         this.maxPower=maxPower;
-    }
+    }*/
 
     public Car(String model, String design, String fuel, String maxPower, int maxSpeed){
         this.model=model;
@@ -34,6 +33,7 @@ public abstract class Car {
         this.fuel=fuel;
         this.maxPower=maxPower;
         this.maxSpeed=maxSpeed;
+        counter++;
     }
 
     public String getModel() {
@@ -77,9 +77,13 @@ public abstract class Car {
     }
 
     public abstract String getFuelType(String fuelType);
+
     public void printData(){
         System.out.println("Model: " + model + "\nDesign: " + design + "\nFuel type: " +
                 fuel + "\nMax power: " + maxPower + "\nMax speed: " + maxSpeed);
     }
 
+    public static int getCounter() {
+        return counter;
+    }
 }
