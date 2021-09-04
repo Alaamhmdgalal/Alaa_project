@@ -2,8 +2,7 @@ package com.carPackage;
 
 public class Mercedes extends Car{
 
-    public Mercedes(String model){
-        super(model);
+    public Mercedes(){
     }
 
     public Mercedes(String model, String fuel){

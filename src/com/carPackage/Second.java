@@ -10,7 +10,7 @@ public class Second {
         Bmw Sedan = new Bmw("330I", "Petrol");
         Mercedes GLA = new Mercedes("GLA250", "Hatchback", "Electrical", "221 hp @ 5500 rpm",
                 230);
-        Mercedes SL = new Mercedes("SL 600", "Cabriolet", "Electrical");
+        Mercedes SL = new Mercedes("SL 600", "Cabriolet", "Electrical ");
 
 
         System.out.println("1)X3 M" + "\n2)Sedan 330I0" + "\n3)GLA250" + "\n4)SL 600");

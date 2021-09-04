@@ -2,8 +2,7 @@ package com.carPackage;
 
 public class Bmw extends Car{
 
-    public Bmw(String model){
-        super(model);
+    public Bmw(){
     }
 
     public Bmw(String model, String fuel){
