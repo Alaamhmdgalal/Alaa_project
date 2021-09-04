@@ -25,7 +25,7 @@ public class Mercedes extends Car{
     @Override
     public String getFuelType(String model){
         if(model.equals("GLA250") || model.equals("SL 600"))
-            return "Premium unleaded";
+            return "Electrical";
         else
             return "Anything else";
     }
