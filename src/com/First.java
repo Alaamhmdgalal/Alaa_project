@@ -1,13 +1,29 @@
 package com;
 import java.util.Scanner;
+import java.util.*;
 
 class Main {
 
-    public static void main(String[] args){
+    public static void main(String[] args) {
 
-    Scanner scan = new Scanner(System.in);
+        Scanner scan = new Scanner(System.in);
+        double sum = 0.0;
 
-    double[] arrayOfNumbers = new double[10];
+        ArrayList<Double> listOfNumbers = new ArrayList<>();
+
+        System.out.println("Enter the size of your array: ");
+        int input = scan.nextInt();
+        for (int i = 0; i < input; i++){
+            listOfNumbers.add(scan.nextDouble());
+            sum+= listOfNumbers.get(i);
+        }
+
+    double average = sum / listOfNumbers.size();
+    System.out.println(average);
+
+
+
+    /*double[] arrayOfNumbers = new double[10];
         for(int i = 0 ; i < arrayOfNumbers.length ; i++){
          arrayOfNumbers[i]= scan.nextDouble();
         }
@@ -19,7 +35,7 @@ class Main {
         }
         double average = sum/arrayOfNumbers.length;
         System.out.println(average);
-
+    */
 
 
 
