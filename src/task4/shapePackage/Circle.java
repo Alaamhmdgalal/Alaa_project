@@ -14,11 +14,11 @@ public class Circle implements Shape{
         return "Circle";
     }
 
-    /*@Override
+    @Override
     public double getPerimeter() {
         return 2*(Math.PI)*radius;
     }
-*/
+
     public double getRadius() {
         return radius;
     }

@@ -15,10 +15,10 @@ public class Rectangle implements Shape{
     }
 
 
-    /*@Override
+    @Override
     public double getPerimeter() {
         return 2 * (length + width);
-    }*/
+    }
 
     public double getLength() {
         return length;

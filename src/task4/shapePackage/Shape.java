@@ -7,4 +7,5 @@ public interface Shape {
 
     public abstract double getArea();
     public abstract String getShapeName();
+    public abstract double getPerimeter();
 }

@@ -14,11 +14,11 @@ public class Square implements Shape{
         return "Square";
     }
 
-    /*@Override
+    @Override
     public double getPerimeter() {
         return 4*side;
     }
-*/
+
     public double getSide() {
         return side;
     }
