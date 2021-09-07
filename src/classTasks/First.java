@@ -1,4 +1,4 @@
-package com;
+package classTasks;
 import java.util.Scanner;
 import java.util.*;
 
@@ -20,6 +20,7 @@ class Main {
 
     double average = sum / listOfNumbers.size();
     System.out.println(average);
+    }
 
 
 
@@ -36,23 +37,6 @@ class Main {
         double average = sum/arrayOfNumbers.length;
         System.out.println(average);
     */
-
-
-
-        /*Circle c1 = new Circle();
-    c1.setRadius(2);
-    System.out.println("Circle area: " + c1.getArea());
-
-    Square s1 = new Square();
-    s1.setSide(-3);
-    System.out.println("Square area: " + s1.getArea());
-
-    Rectangle r1 = new Rectangle();
-    r1.setWidth(2);
-    r1.setLength(3);
-    System.out.println("Rectangle perimeter: " + r1.getPerimeter());
-
-     */
 
 
         //Person p1 = new Person();
@@ -76,5 +60,4 @@ class Main {
         //    return number1*number2;
         //}
 
-    }
 }
